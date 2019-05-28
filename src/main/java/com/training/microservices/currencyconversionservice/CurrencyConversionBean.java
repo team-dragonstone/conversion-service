@@ -3,7 +3,7 @@ package com.training.microservices.currencyconversionservice;
 import java.math.BigDecimal;
 
 public class CurrencyConversionBean {
-	
+	// git project update test
 	private Long id;
 	private String from;
 	private String to;
