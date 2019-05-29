@@ -2,6 +2,8 @@ package com.training.microservices.currencyconversionservice;
 
 public class SaiTest {
 	
+	public static final String FAKE_PASSWORD = "SonarQubeShouldFlagThis";
+	
 	public String stringTest() {
 		String badPracticeString = new String();
 		String goodPracticeString = "";
@@ -36,4 +38,9 @@ public class SaiTest {
 		return x + y;
 	}
 	
+	public void theBug() {
+		if(1==1) {
+			System.out.println("I'm a bug! ¯\\_(ツ)_/¯");
+		}
+	}
 }
